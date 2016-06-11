@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mrinalinigalle.cureme">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>came
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".PossibleDisease"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tension"
+            android:label="@string/title_activity_tension"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sinus"
+            android:label="@string/title_activity_sinus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cold"
+            android:label="@string/title_activity_cold"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EarInfect"
+            android:label="@string/title_activity_ear_infect"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PepUlcer"
+            android:label="@string/title_activity_pep_ulcer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StomCramp"
+            android:label="@string/title_activity_stom_cramp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TensionHomeo"
+            android:label="@string/title_activity_tension_homeo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TensionAlo"
+            android:label="@string/title_activity_tension_alo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SinusHomeo"
+            android:label="@string/title_activity_sinus_homeo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SinusAlo"
+            android:label="@string/title_activity_sinus_alo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ColdHomeo"
+            android:label="@string/title_activity_cold_homeo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ColdAlo"
+            android:label="@string/title_activity_cold_alo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EarInfectHomeo"
+            android:label="@string/title_activity_ear_infect_homeo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EarInfectAlo"
+            android:label="@string/title_activity_ear_infect_alo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PepUlcerHomeo"
+            android:label="@string/title_activity_pep_ulcer_homeo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PepUlcerAlo"
+            android:label="@string/title_activity_pep_ulcer_alo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StomCrampHomeo"
+            android:label="@string/title_activity_stom_cramp_homeo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StomCrampAlo"
+            android:label="@string/title_activity_stom_cramp_alo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Privacy" />
+        <activity android:name=".TermsCond" />
+        <activity android:name=".About"/>
+    </application>
+
+</manifest>
